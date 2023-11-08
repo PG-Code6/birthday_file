@@ -1,3 +1,8 @@
+//music 延迟一秒
+ setTimeout(function () {
+      document.getElementById("audio01").src = "music/bgm.mp3";
+    }, 3000);
+
 // Import the data to customize and insert them into page
 const fetchData = () => {
   fetch("customize.json")
