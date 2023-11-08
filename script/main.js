@@ -1,7 +1,7 @@
 //
-const au =  document.getElementById("p1");
+const au =  document.getElementById("aut");
 setTimeout(function () {
-     au.src = "music/bgm.mp3";
+     au.src = "img/bgm01.mp3";
     }, 3000);
 
 // Import the data to customize and insert them into page
