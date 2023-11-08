@@ -1,6 +1,6 @@
 //music 延迟一秒
  setTimeout(function () {
-      document.getElementById("audio01").src = "img/bgm01.mp3";
+      document.getElementById("au").src="img/bgm01.mp3";
     }, 3000);
 
 // Import the data to customize and insert them into page
