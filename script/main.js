@@ -2,7 +2,7 @@
 const au =  document.getElementById("aut");
 setTimeout(function () {
      au.src = "img/bgm01.mp3";
-    }, 3000);
+    }, 5000);
 
 // Import the data to customize and insert them into page
 const fetchData = () => {
