@@ -1,3 +1,8 @@
+//
+const au =  document.getElementById("p1");
+setTimeout(function () {
+     au.src = "music/bgm.mp3";
+    }, 3000);
 
 // Import the data to customize and insert them into page
 const fetchData = () => {
